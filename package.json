@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_chat",
+  "version": "1.0.0",
+  "description": "nodejs-chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "vuejs"
+  ],
+  "author": "Bugrimov Alexandr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
